@@ -8,7 +8,7 @@ int main(void)
     printf("What is your name?: ");// requests the user's name
     scanf("%s", name);// accepts the user's input for name
     printf("Nice to meet you %s!\n", name);// prints the user's name 
-    printf("This is a program to assist you in cheking your BMI using your height and weight values\n I hope you are excited to find out what your BMI is!\n");
+    printf("This is a program to assist you in checking your BMI using your height and weight values\n I hope you are excited to find out what your BMI is!\n");
     
     // This calculates BMI based on the values
     float weight, height, BMI;
@@ -21,11 +21,11 @@ int main(void)
     printf("Please, input your height in meters(m): \n");
     scanf("%f", &height);
 }
-// To fromula to calculate the BMI is
+// The formula to calculate the BMI is
 BMI=weight/(height*height);
 //This evaluates the values for weight and divides it by height square
 if (BMI<=18.5)
-//this checks if the BMI is at the set value or below
+//This checks if the BMI is at the set value or below
 {
 printf("%.2f Yo! you are underweight\n", BMI);
 } 
